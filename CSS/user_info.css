@@ -1,0 +1,251 @@
+
+
+/* main 영역 */
+
+.user_info{
+  width: 1200px;
+  height: 112px;
+  /* overflow: hidden; */
+  margin: 0 auto; 
+  border-bottom: 1px solid gray;
+}
+
+
+.user_info h2{
+  font-size: 15px;
+}
+
+.user_info a{
+  float: left;
+  line-height: 112px;
+  margin: 0 50px 0 20px;
+}
+
+.user_info .my_info:hover,
+.user_info .order_list:hover{
+  color: red;
+}
+
+
+.user_info-1{
+  width: 1200px;
+  margin: 20px auto 70px;
+  overflow: hidden;
+  padding: 20px 0 30px;
+  border-bottom: 1px solid gray;
+}
+
+.user_area{
+  width: 360px;
+  overflow: hidden;
+  position: relative;
+  border-right: 1px solid gray;
+  padding-left: 20px;
+  float: left;
+}
+.user_area a{
+  display: block;
+  border: 1px solid gray;
+  font-size: 12px;
+  width: 45px;
+  position: absolute;
+  right: 65px;
+  padding: 5px;
+}
+
+.user_name{
+  float: left;
+}
+
+.user_name > .user_id{
+  margin-bottom: 20px;
+}
+
+.user_name span{
+  margin-right: 30px;
+}
+
+.user_icon{
+  float: left;
+  margin-right: 20px;
+}
+
+.user_icon p{
+  background: url(../imgs/user_icon_03.png) no-repeat;
+  width: 62px;
+  height: 62px;
+  text-indent: -9999px;
+}
+
+
+.user_coupon{
+  width: 270px;
+  text-align: center;
+  float: left;
+  border-right: 1px solid gray;
+}
+
+.user_coupon dt{
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.user_coupon dd{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.user_membership{
+  width: 270px;
+  text-align: center;
+  float: left;
+  border-right: 1px solid gray;
+}
+
+.user_membership dt{
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.user_membership dd{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.user_club{
+  width: 270px;
+  text-align: center;
+  float: left;
+}
+
+.user_club dt{
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.user_club dd{
+  font-size: 18px;
+  font-weight: bold;
+}
+/* 유저 부분 끝 */
+
+/* 인증 부분 */
+.challenge_confirm{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.user_confirm-list{
+  border-bottom: 1px solid gray;
+}
+
+.user_confirm-list ul{
+  overflow: hidden;
+}
+
+.user_confirm-list ul li {
+  float:  left;
+  padding: 0 20px 10px;
+}
+
+
+.confirm_info h3{
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 0 0 10px;
+}
+
+.confirm_info h3::before{
+  content: "•";
+  padding: 0 5px;
+}
+
+
+
+.confirm_info p {
+  font-size: 13px;
+  text-align: center;
+  line-height: 190px;
+}
+
+.confirm_standBy{
+  height: 230px;
+  border-bottom: 1px solid gray;
+  
+}
+
+.confirm_reject{
+  height: 230px;
+  border-bottom: 1px solid gray;
+}
+
+.confirm_accept{
+  /* width: 1200px; */
+  height: 230px;
+  border-bottom: 1px solid gray;
+  position: relative;
+}
+
+.confirm_accept .confirm_1 {
+  float: left;
+  /* background: url(../imgs/confirm_img1_03.png) no-repeat;
+  width: 112px;
+  height: 127px;
+  text-align: center;
+  padding: 130px 20px 0 0;
+  box-sizing: border-box;
+  margin: 25px 25px 0; */
+}
+
+.confirm_accept .confirm_2{
+  float: left;
+  /* background: url(../imgs/confirm_img2_06.png) no-repeat;
+  width: 112px;
+  height: 127px;
+  text-align: center;
+  padding: 130px 20px 0 0;
+  box-sizing: border-box;
+  margin: 25px 25px 0; */
+}
+
+.confirm_accept .confirm_1 a{
+  background: url(../imgs/confirm_img1_03.png) no-repeat;
+  width: 112px;
+  height: 127px;
+  text-align: center;
+  padding: 130px 20px 0 0;
+  box-sizing: border-box;
+  margin: 25px 25px 0;
+  display: block;
+}
+
+.confirm_accept .confirm_2 a{
+  background: url(../imgs/confirm_img2_06.png) no-repeat;
+  width: 112px;
+  height: 127px;
+  text-align: center;
+  padding: 130px 20px 0 0;
+  box-sizing: border-box;
+  margin: 25px 25px 0;
+  display: block;
+}
+
+.confirm_accept .confirm_all{
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  font-size: 13px;
+  
+}
+
+.confirm_club{
+  height: 230px;
+}
+
+
+
+
+
+
+
+

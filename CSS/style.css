@@ -1,0 +1,44 @@
+@import "../CSS/main_page.css";
+@import "../CSS/user_info.css";
+@import "../CSS/login-page_style.css";
+@import "../CSS/order_info.css";
+@import "../CSS/shop.css";
+@import "../CSS/join_page.css";
+
+
+/* header */
+@import "../CSS/header.css";
+
+/* footer */
+@import "../CSS/footer.css";
+
+:root {
+  --pink: #dc1759;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Nanum Gothic","돋움", sans-serif;
+}
+
+a{
+  text-decoration:none;
+  color: black;
+}
+
+li{
+  list-style: none;
+}
+
+.text_blind{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+
+}

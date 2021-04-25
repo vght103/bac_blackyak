@@ -1,0 +1,85 @@
+/* footer 영역 */
+
+.footer_wrap{
+  border-top: 1px solid black;
+}
+
+.footer{
+  width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  font-size: 13px;
+  position: relative;
+}
+
+.footer .site_info{
+  margin-top: 20px;
+}
+
+.footer .site_info ul{
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+.footer .site_info ul li{
+  float: left;
+}
+
+.footer .site_info .info_li-1::after{
+  content: "|";
+  padding: 0 10px
+}
+
+
+.footer .site_info .info_li-2::after{
+  content: "|";
+  padding: 0 10px
+}
+
+.info_li-2 a{
+  color: red;
+}
+
+.footer_txt1{
+  overflow: hidden;
+}
+
+.footer_txt1 address{
+  float: left;
+  margin-right: 10px;
+}
+
+.footer_txt1 p {
+  float: left;
+}
+
+.family_site{
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  border: 1px solid gray;
+  width: 166px;
+  height: 22px;
+  box-sizing: border-box;
+  background: white;
+}
+
+.family_site h2{
+  font-size: 14px;
+
+  background: url(../imgs/family_site_arrow_03.png) no-repeat 140px;
+
+}
+
+.family_site ul{
+  border: 1px solid gray;
+  width: 166px;
+  box-sizing: border-box;
+  position: absolute;
+  right: -1px;
+  background: white;
+}
+
+.family_site a{
+  padding-left: 10px;
+}

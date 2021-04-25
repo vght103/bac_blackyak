@@ -1,0 +1,248 @@
+
+
+.join_form{
+  width: 1200px;
+  margin: 50px auto 0;
+  background-color: white;
+  position: relative;
+
+  /* text-align: center; */
+}
+
+.join_form > h2 {
+  background: url(../imgs/bac_title_03.png) no-repeat;
+  width: 110px;
+  height: 55px;
+  text-indent: -9999px;
+  margin: 0 auto 30px;
+}
+
+.join_form > form{
+  width: 500px;
+  margin: auto;
+  padding: 10px;
+}
+
+.join_form > form > section{
+  margin-bottom: 20px;
+}
+
+.join_form > form input{
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+
+.join_form h3{
+  font-size: 15px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+
+}
+
+.input_handle{
+  padding: 10px;
+  background-color: #ededed;
+  margin-bottom: 20px;
+}
+
+.join_1,
+.join_2,
+.join_3{
+  overflow: hidden;
+}
+
+.id{
+  overflow: hidden;
+}
+
+.id > .input_handle:first-child {
+  width: 320px;
+  float: left;
+}
+
+.id > .dubble_check{
+  float: right;
+}
+
+.id > .dubble_check button{
+  width: 120px;
+  padding: 10px 0;
+}
+
+
+.join_3 > .input_handle {
+  width: 320px;
+  float: left;
+}
+
+.join_3 > .button_handle{
+  float: right;
+}
+
+.join_3 > .button_handle button{
+  width: 120px;
+  padding: 10px 0;
+}
+
+.join_4 > .message {
+  overflow: hidden;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.join_4 > .message > p{
+  float: left;
+  font-weight: bold;
+}
+.join_4 >.message > .message_btn{
+  float: right;
+  
+}
+
+.join_4 > .message input {
+  width: 13px;
+  padding-right: 10px;
+}
+
+.join_4 > .message label{
+  margin-right: 20px;
+  text-align: right;
+}
+
+
+/*  */
+.join_4 > .email {
+  overflow: hidden;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.join_4 > .email > p{
+  float: left;
+  font-weight: bold;
+}
+.join_4 >.email > .email_btn{
+  float: right;
+  
+}
+
+.join_4 > .email input {
+  width: 13px;
+  padding-right: 10px;
+}
+
+.join_4 > .email label{
+  margin-right: 20px;
+  text-align: right;
+}
+
+/*  */
+
+.join_4 > .post {
+  overflow: hidden;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.join_4 > .post > p{
+  float: left;
+  font-weight: bold;
+}
+.join_4 >.post > .post_btn{
+  float: right;
+  
+}
+
+.join_4 > .post input {
+  width: 13px;
+  padding-right: 10px;
+}
+
+.join_4 > .post label{
+  margin-right: 20px;
+  text-align: right;
+}
+
+
+.join_5{
+  overflow: hidden;
+}
+
+.join_5 h3 {
+  border: none;
+  margin: 30px 0 10px;
+  
+}
+
+.join_instruction-wrap{
+  border: 1px solid #999;
+}
+
+.join_instruction-wrap > .join_instruction {
+  overflow: hidden;
+  /* margin-bottom: 20px; */
+  padding: 10px;
+  font-size: 14px;
+  position: relative;
+  /* background: url(../imgs/arrow_right.png) no-repeat 400px; */
+}
+
+.join_instruction-wrap > .join_instruction > input{
+  float: left;
+  width: 13px;
+  margin: 0 10px 5px 0; 
+}
+
+.join_instruction-wrap > .join_instruction > label{
+  float: left;
+}
+
+.join_instruction-wrap > .join_instruction a{
+  display: block;
+  background: url(../imgs/arrow_right.png) no-repeat;
+  width: 7px;
+  height: 12px;
+  text-indent: -9999px;
+  position: absolute;
+  right: 30px;
+  bottom: 15px;
+}
+
+.join_in_submit button{
+  width: 100%;
+  padding: 10px 0;
+  margin: 10px 0 50px;
+  background-color: var(--pink);
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+.join_6{
+  /* height: 200px; */
+  /* overflow: hidden; */
+  /* position: relative; */
+}
+
+.instruction_box {
+  /* position: absolute; */
+  box-sizing: border-box;
+  width: 500px;
+  height: 200px;
+  overflow: scroll;
+  font-size: 13px;
+  border: 1px solid gray;
+  padding: 15px;
+  display: none;
+}
+
+.join_6 > .box-2,
+.join_6 > .box-3{
+  /* display: none; */
+}
