@@ -92,21 +92,19 @@
 }
 
 .sub_gnb .sub_menu{
-  /* border: 1px solid gray; */
   display: inline-block;
   vertical-align: top;
-  /* margin: 0 -4px 0 22px; */
   font-size: 14px;
   width: 110px;
-  margin: 0 15px 0 20px;
+  margin: 0 15px 0 13px;
 }
 
 .sub_gnb .sub_menu:first-child{
-  margin-left: 125px;
+  margin-left: 104px;
 }
 
 .sub_gnb .sub_menu:last-child{
-  margin-right: 50px;
+  margin-right: 70px;
 }
 
 

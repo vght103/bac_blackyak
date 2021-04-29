@@ -4,6 +4,7 @@
 @import "../CSS/order_info.css";
 @import "../CSS/shop.css";
 @import "../CSS/join_page.css";
+@import "../CSS/challenge.css";
 
 
 /* header */
@@ -19,7 +20,7 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: "Nanum Gothic","돋움", sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 a{

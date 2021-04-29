@@ -94,8 +94,8 @@
   margin-bottom: 20px;
 }
 
-.join_4 > .message > p{
-  float: left;
+.join_4  span{
+  /* float: left; */
   font-weight: bold;
 }
 .join_4 >.message > .message_btn{
@@ -121,10 +121,11 @@
   margin-bottom: 20px;
 }
 
-.join_4 > .email > p{
+/* .join_4 > .email > p{
   float: left;
   font-weight: bold;
-}
+} */
+
 .join_4 >.email > .email_btn{
   float: right;
   
@@ -148,10 +149,11 @@
   margin-bottom: 20px;
 }
 
-.join_4 > .post > p{
+/* .join_4 > .post > p{
   float: left;
   font-weight: bold;
-}
+} */
+
 .join_4 >.post > .post_btn{
   float: right;
   

@@ -1,0 +1,284 @@
+.challenge__wrap{
+  
+}
+
+.challenge__bg-01 {
+  background: url(../imgs/challenge_imgs/100_bg.jpg) no-repeat;
+  width: 1400px;
+  height: 530px;
+  margin: 0 auto 40px;
+  position: relative;
+  padding-top: 185px;
+  box-sizing: border-box;
+}
+
+.challenge__bg-02 {
+  background: url(../imgs/challenge_imgs/100+_bg.jpg) no-repeat;
+  width: 1400px;
+  height: 530px;
+  margin: 0 auto 40px;
+  position: relative;
+  padding-top: 185px;
+  box-sizing: border-box;
+}
+
+.challenge__bg-03 {
+  background: url(../imgs/challenge_imgs/backdu_bg.jpg) no-repeat;
+  width: 1400px;
+  height: 530px;
+  margin: 0 auto 40px;
+  position: relative;
+  padding-top: 185px;
+  box-sizing: border-box;
+}
+
+.challenge__bg-04 {
+  background: url(../imgs/challenge_imgs/nakdong_bg.jpg) no-repeat;
+  width: 1400px;
+  height: 530px;
+  margin: 0 auto 40px;
+  position: relative;
+  padding-top: 185px;
+  box-sizing: border-box;
+}
+
+.challenge__bg-05 {
+  background: url(../imgs/challenge_imgs/island_bg.jpg) no-repeat;
+  width: 1400px;
+  height: 530px;
+  margin: 0 auto 40px;
+  position: relative;
+  padding-top: 185px;
+  box-sizing: border-box;
+}
+
+.challenge__bg-06 {
+  background: url(../imgs/challenge_imgs/clean_bg.jpg) no-repeat;
+  width: 1400px;
+  height: 530px;
+  margin: 0 auto 40px;
+  position: relative;
+  padding-top: 185px;
+  box-sizing: border-box;
+}
+
+.challenge__bg-07 {
+  background: url(../imgs/challenge_imgs/hanbuk_bg.jpg) no-repeat;
+  width: 1400px;
+  height: 530px;
+  margin: 0 auto 40px;
+  position: relative;
+  padding-top: 185px;
+  box-sizing: border-box;
+}
+
+.challenge__bg-title {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 420px;
+  /* height: 190px; */
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 20px;
+  padding: 50px 0;
+}
+
+.challenge__bg-title span {
+  display: block;
+
+}
+
+.challenge__bg-title span:last-child{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/* challenge_bg */
+
+
+.bac__challegne {
+  width: 1200px;
+  margin: 0 auto 40px;
+  text-align: center;
+
+}
+
+.bac__challegne > ul{
+  overflow: hidden;
+}
+
+.bac__challegne > ul > li {
+  display: inline-block;
+  /* border: 1px solid gray; */
+  border-color: yellowgreen;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.bac__challegne > ul > li:hover span{
+  color: rgb(31, 117, 216);
+}
+
+.bac__challegne > ul > li img {
+  border-radius: 20px;
+}
+
+.bac__challegne > ul > li  span{
+  display: block;
+}
+
+.bac__challegne .challenge__li > span:last-child {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* challenge_list */
+
+
+/* instruction */
+
+.challenge__instruction-wrap {
+  background-color: #f2f7fd;
+} 
+
+.challenge__instruction {
+  width: 1200px;
+  margin: 0 auto 70px;
+  padding: 50px 0;
+  overflow: hidden;
+}
+
+.challenge__instruction h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.challenge__instruction > div {
+  float: left;
+  width: 550px;
+  margin: 25px;
+}
+
+.instruction_1 > h3 {
+  background: url(../imgs/challenge_imgs/icon01.png) no-repeat left;
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+
+.instruction_2 > h3 {
+  background: url(../imgs/challenge_imgs/icon02.png) no-repeat left;
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+
+.instruction_3 > h3 {
+  background: url(../imgs/challenge_imgs/icon03.png) no-repeat left;
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+
+.instruction_4 > h3 {
+  background: url(../imgs/challenge_imgs/icon04.png) no-repeat left;
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+
+/* confirms */
+
+.challenge__confirms {
+  width: 1200px;
+  margin:  0 auto 50px;
+}
+
+
+.challenge__confirms > h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 30px;
+} 
+
+.confirms__btn {
+  width: 100%;
+  margin: 0 auto 30px;
+  overflow: hidden;
+  text-align: center;
+  color: white;
+}
+
+.confirms__btn div:first-child{
+  width: 20%;
+  float: left;
+  background-color: #0075d0;
+  margin-right: 45px;
+  padding: 10px 0;
+  border-radius: 10px;  
+}
+
+.confirms__btn div:nth-child(2){
+  width: 50%;
+  float: left;
+  background-color: #999999;
+  margin-right: 45px;
+  padding: 10px 0;
+  border-radius: 10px;
+}
+
+.confirms__btn div:last-child{
+  width: 20%;
+  float: left;
+  border: 1px solid gray;
+  padding: 10px 0;
+  border-radius: 10px;
+}
+
+
+
+
+.challenge__confirms > .region > ul {
+  overflow: hidden;
+}
+
+.challenge__confirms > .region > ul > li {
+  float: left;
+  margin: 0 10px 30px;
+}
+
+
+.challenge__confirms > .region  a:hover {
+  color: rgb(31, 117, 216);
+}
+
+
+.challenge__confirms > .challenge__imgs > ul {
+  overflow: hidden;
+}
+
+.challenge__confirms > .challenge__imgs li {
+  display: inline-block;
+  margin: 0 8px 60px 8px;
+  
+}
+
+.challenge__mountain {
+  background-color: #ededed;
+  border-radius: 10px;
+}
+
+.challenge__mountain > img{
+  border-radius: 10px;
+}
+
+.challenge__mountain > span{
+  display: block;
+  padding: 5px 10px;
+}
+
+.challenge__mountain > span:nth-child(2) {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.challenge__mountain:hover span{
+  color: rgb(31, 117, 216);
+}

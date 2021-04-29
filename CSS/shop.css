@@ -28,244 +28,57 @@
 .bac_items > section {
   overflow: hidden;
   position: relative;
-}
-
-.bac_items > section > dl {
-  position: relative;
-  display: inline-block;
-  width: 285px;
-  height: 460px;
-  text-align: center;
-  border: 1px solid gray;
   margin-bottom: 100px;
-  transition: background-color  0.5s;
 }
 
-.bac_items > section > dl:hover{
-
+.bac_items > section > ul > li:hover{
   background-color: rgb(229, 245, 251);
 }
 
-.bac_items > section dt {
+.bac_items > section > ul > li {
+  display: inline-block;
+  border: 1px solid gray;
+  width: 285px;
+  height: 460px;
+  transition: background-color  0.5s;
+}
+
+.bac_items > section > ul > li > .product__top{
   background-color: gray;
-  /* border: 1px solid gray; */
-  /* padding: 15px 0; */
-  font-size: 15px;
+  font-size: 16px;
   font-weight: bold;
+  
 }
 
-.bac_items > section > dl > dd {
-  font-size: 14px;
+.bac_items > section > ul > li > .product__bottom  img{
+  padding-top: 20px;
 }
 
-.bac_items > section dt > a{
+.bac_items > section > ul > li > .product__bottom  span{
+  display: block;
+  padding-top: 20px;
+}
+
+.bac_items > section > ul > li  a {
   display: block;
   padding: 15px 0;
 }
 
-.bac_items > section dd > a{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  right: 0;
-  left: 0;
-  box-sizing: border-box;
-}
 
 .bac_items > section > .more_view{
   display: block;
-  position: absolute;
+  /* position: absolute;
   bottom: 60px;
-  right: 35px;
+  right: 35px; */
+  text-align: end;
+  margin: 10px 20px 0;
 }
 
 
-
-.bac_items > .shoes > dl > .shoes_img-1{
-  background: url(../imgs/shoes_01.png) no-repeat;
-  width: 248px;
-  height: 260px;
-  padding-top: 300px;
-  box-sizing: border-box;
-  margin: 20px auto;
-}
-
-.bac_items > .shoes > dl > .shoes_img-2{
-  background: url(../imgs/shoes_02.png) no-repeat;
-  width: 248px;
-  height: 260px;
-  padding-top: 300px;
-  box-sizing: border-box;
-  margin: 20px auto;
-}
-
-.bac_items > .shoes > dl > .shoes_img-3{
-  background: url(../imgs/shoes_03.png) no-repeat;
-  width: 248px;
-  height: 260px;
-  padding-top: 300px;
-  box-sizing: border-box;
-  margin: 20px auto;
-}
-
-.bac_items > .shoes > dl > .shoes_img-4{
-  background: url(../imgs/shoes_04.png) no-repeat;
-  width: 248px;
-  height: 260px;
-  padding-top: 300px;
-  box-sizing: border-box;
-  margin: 20px auto;
-}
-
-
-.bac_items > .shoes > .shoes_1 > dt{
-  background: #f7f7f7;
-  color: black
-}
-
-.bac_items > .shoes > dl > .price{
-  padding-top: 20px;
-}
-
-
-
-
-.bac_items > .outer > dl > .outer_img-1{
-  background: url("../imgs/outer_01.png") no-repeat;
-  width: 185px;
-  height: 260px;
-  padding-top: 300px;
-  box-sizing: border-box;
-  margin: 20px auto;
-}
-
-.bac_items > .outer > dl > .outer_img-2{
-  background: url("../imgs/outer_02.png") no-repeat;
-  width: 185px;
-  height: 260px;
-  padding-top: 300px;
-  box-sizing: border-box;
-  margin: 20px auto;
-}
-
-.bac_items > .outer > dl > .outer_img-3{
-  background: url("../imgs/outer_03.png") no-repeat;
-  width: 185px;
-  height: 260px;
-  padding-top: 300px;
-  box-sizing: border-box;
-  margin: 20px auto;
-  
-}
-
-.bac_items > .outer > dl > .outer_img-4{
-  background: url("../imgs/outer_04.png") no-repeat;
-  width: 185px;
-  height: 260px;
-  padding-top: 300px;
-  box-sizing: border-box;
-  margin: 20px auto;
-  
-}
 
 .bac_items > .outer > .outer_2 > dt{
   background: #f7f7f7;
   color: black
 }
 
-.bac_items > .outer > dl > .price{
-  padding-top: 20px;
-}
 
-
-.bac_items > .socks > dl > .socks_img-1{
-  background: url("../imgs/socks_01.png") no-repeat;
-  width: 140px;
-  height: 260px;
-  padding-top: 300px;
-  box-sizing: border-box;
-  margin: 20px auto;
-}
-
-.bac_items > .socks > dl > .socks_img-2{
-  background: url("../imgs/socks_02.png") no-repeat;
-  width: 140px;
-  height: 260px;
-  padding-top: 300px;
-  box-sizing: border-box;
-  margin: 20px auto;
-}
-
-.bac_items > .socks > dl > .socks_img-3{
-  background: url("../imgs/socks_03.png") no-repeat;
-  width: 140px;
-  height: 260px;
-  padding-top: 300px;
-  box-sizing: border-box;
-  margin: 20px auto;
-}
-
-.bac_items > .socks > dl > .socks_img-4{
-  background: url("../imgs/socks_04.png") no-repeat;
-  width: 140px;
-  height: 260px;
-  padding-top: 300px;
-  box-sizing: border-box;
-  margin: 20px auto;
-}
-
-.bac_items > .socks > .socks_3 > dt{
-  background: #f7f7f7;
-  color: black
-}
-
-.bac_items > .socks > dl > .price{
-  padding-top: 20px;
-}
-
-.bac_items > .patch > dl > .patch_img-1{
-  background: url("../imgs/patch_01.png") no-repeat center;
-  width: 173px;
-  height: 260px;
-  padding-top: 300px;
-  box-sizing: border-box;
-  margin: 20px auto;
-}
-
-.bac_items > .patch > dl > .patch_img-2{
-  background: url("../imgs/patch_02.png") no-repeat center;
-  width: 173px;
-  height: 260px;
-  padding-top: 300px;
-  box-sizing: border-box;
-  margin: 20px auto;
-}
-
-.bac_items > .patch > dl > .patch_img-3{
-  background: url("../imgs/patch_03.png") no-repeat center;
-  width: 173px;
-  height: 260px;
-  padding-top: 300px;
-  box-sizing: border-box;
-  margin: 20px auto;
-}
-
-.bac_items > .patch > dl > .patch_img-4{
-  background: url("../imgs/patch_04.png") no-repeat center;
-  width: 173px;
-  height: 260px;
-  padding-top: 300px;
-  box-sizing: border-box;
-  margin: 20px auto;
-}
-
-.bac_items > .patch > .patch_4 > dt{
-  background: #f7f7f7;
-  color: black
-}
-
-
-
-.bac_items > .patch > dl > .price{
-  padding-top: 20px;
-}

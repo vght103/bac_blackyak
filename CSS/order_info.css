@@ -139,6 +139,15 @@
   margin-bottom: 70px;
 }
 
+.order_area > table > tr {
+  
+}
+
+.order_area > table > tr > td {
+  display: table-cell;
+}
+
+
 .order_area h3{
   border-bottom: 1px solid gray;
   font-weight: normal;
