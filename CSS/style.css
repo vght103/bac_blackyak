@@ -5,7 +5,8 @@
 @import "../CSS/shop.css";
 @import "../CSS/join_page.css";
 @import "../CSS/challenge.css";
-
+@import "../CSS/club.css";
+@import "../CSS/notice.css";
 
 /* header */
 @import "../CSS/header.css";
@@ -15,6 +16,7 @@
 
 :root {
   --pink: #dc1759;
+  --blue: #15a8f2;
 }
 
 *{

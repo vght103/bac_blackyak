@@ -1,0 +1,471 @@
+/* .section__wrap{
+  background-color: #fafafa;
+} */
+
+.club__top {
+  width: 1200px;
+  height: 100px;
+  margin: 0 auto 30px;
+  /* display: table;
+  table-layout: fixed; */
+  border-bottom: 1px solid #dfdfdf;
+}
+
+
+.club__top-txt {
+  width: 400px;
+  float: left;
+  margin-top: 25px;
+}
+
+.club__top-txt > span {
+  display: block;
+}
+
+.club__top-txt > span:first-child {
+  font-size: 14px;
+}
+
+.club__top-txt > span:last-child {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+
+.club__search {
+  width: 400px;
+  float: left;
+  margin-top: 25px;
+}
+
+.club__search .search__bar {
+  border: 1px solid #dfdfdf;
+  background-color: white;
+  overflow: hidden;
+  vertical-align: middle;
+  width: 360px;
+}
+
+.club__search .club__input-wrap{
+  padding: 10px 10px;
+  float: left;
+
+}
+
+.club__search > form input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 270px;
+}
+
+.club__search > form button {
+  float: right;
+  padding: 5px 15px;
+  color: white;
+  background-color: rgb(175, 175, 175);
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.club__top > .club__creat {
+  float: right;
+  background-color: var(--blue);
+  margin-top: 25px;
+  padding: 8px 12px;
+  border-radius: 10px;
+}
+
+.club__top > .club__creat > a {
+  display: block;
+  color: white;
+
+}
+
+.club__introduce {
+  width: 1200px;
+  margin: 0 auto 50px;
+  text-align: center;
+}
+
+.club__info {
+  margin: 0 auto 50px;
+}
+
+.club__info > ul {
+}
+
+.club__info > ul > li {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.club__info > ul > li > a:hover {
+  color: var(--blue);
+
+}
+
+
+.club__benefit {
+  color: white;
+  background-color: #2a63cd;
+  padding: 30px 0;
+}
+
+.club__benefit > h2 {
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+.club__introduce > .club__benefit > span{
+  display: block;
+  padding-bottom: 5px;
+  font-size: 16px;
+}
+
+.club__introduce > .club__benefit > span:nth-child(2){
+  color: #eaf4b5;
+}
+
+
+/* section 3 */
+
+.club__area > .club__list {
+  width: 1200px;
+  margin: auto;
+}
+
+.club__list > ul {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.club__list > ul > li {
+  width: 550px;
+  height: 290px;
+  float: left;
+  /* background-color: white; */
+  /* border: 1px solid #dfdfdf; */
+  border-radius: 10px;
+  /* margin: 20px; */
+  padding: 25px;
+}
+
+.club__list > ul > li a {
+  display: block;
+  padding: 200px 0 20px 10px;
+  border-radius: 10px;
+  border: 1px solid #dfdfdf;
+}
+
+.club__title {
+  position: relative;
+  background-color: white;
+}
+
+.club__title  h3 {
+  font-size: 16px;
+}
+
+.club__title .point-1,
+.club__title .point-2 {
+  display: inline-block;
+  margin: 20px 20px 0 0;
+  font-size: 14px;
+  color: gray;
+}
+
+.club__title .point-1 span:first-child:before,
+.club__title .point-2 > span:first-child:before{
+  content: "ㆍ";
+}
+
+
+.club__title .point-1 span:first-child:after,
+.club__title .point-2 > span:first-child:after{
+  content: ":";
+  padding: 0 5px;
+}
+
+
+.club__title .point-num {
+  color: var(--pink)
+}
+
+
+.club__list > ul .club-1 {
+  background: url(../imgs/club_imgs/club_01.jpg) no-repeat center;
+  height: 175px;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.club__list > ul .club-2 {
+  background: url(../imgs/club_imgs/club_02.jpg) no-repeat center;
+  height: 175px;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.club__list > ul .club-3 {
+  background: url(../imgs/club_imgs/club_03.jpg) no-repeat center;
+  height: 175px;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.club__list > ul .club-4 {
+  background: url(../imgs/club_imgs/club_04.jpg) no-repeat center;
+  height: 175px;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.club__list > ul .club-5 {
+  background: url(../imgs/club_imgs/club_05.jpg) no-repeat center;
+  height: 175px;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.club__list > ul .club-6 {
+  background: url(../imgs/club_imgs/club_06.jpg) no-repeat center;
+  height: 175px;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.club__list > ul .club-7 {
+  background: url(../imgs/club_imgs/club_07.jpg) no-repeat center;
+  height: 175px;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.club__list > ul .club-8 {
+  background: url(../imgs/club_imgs/club_08.jpg) no-repeat center;
+  height: 175px;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.club__list > ul .club-9 {
+  background: url(../imgs/club_imgs/club_09.jpg) no-repeat center;
+  height: 175px;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.club__list > ul .club-10 {
+  background: url(../imgs/club_imgs/club_10.jpg) no-repeat center;
+  height: 175px;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.club__title > .club__top-1 {
+  background: url(../imgs/club_imgs/top_1_bg.png) no-repeat center;
+  width: 84px;
+  height: 84px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.club__title > .club__top-1 > span {
+  display: block;
+}
+
+.club__title > .club__top-1 > span:first-child {
+  font-size: 12px;
+  padding-top: 15px;
+}
+
+.club__title > .club__top-1 > span:last-child {
+  font-size: 14px;
+}
+
+
+.club__title > .lank-1 {
+  background: url(../imgs/club_imgs/icon_1.png) no-repeat center;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  color: white;
+  padding-top: 8px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.club__title > .lank-2 {
+  background: url(../imgs/club_imgs/icon_2.png) no-repeat center;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  color: white;
+  padding-top: 8px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.club__title > .lank-3 {
+  background: url(../imgs/club_imgs/icon_3.png) no-repeat center;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  color: white;
+  padding-top: 8px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.club__title > .lank-4 {
+  background: url(../imgs/club_imgs/icon_4.png) no-repeat center;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  color: white;
+  padding-top: 8px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.club__title > .lank-5 {
+  background: url(../imgs/club_imgs/icon_4.png) no-repeat center;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  color: white;
+  padding-top: 8px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.club__title > .lank-6 {
+  background: url(../imgs/club_imgs/icon_4.png) no-repeat center;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  color: white;
+  padding-top: 8px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.club__title > .lank-7 {
+  background: url(../imgs/club_imgs/icon_4.png) no-repeat center;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  color: white;
+  padding-top: 8px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.club__title > .lank-8 {
+  background: url(../imgs/club_imgs/icon_4.png) no-repeat center;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  color: white;
+  padding-top: 8px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.club__title > .lank-9 {
+  background: url(../imgs/club_imgs/icon_4.png) no-repeat center;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  color: white;
+  padding-top: 8px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.club__title > .lank-10 {
+  background: url(../imgs/club_imgs/icon_4.png) no-repeat center;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  color: white;
+  padding-top: 8px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+
+.club__page-btn{
+  text-align: center;
+  margin-bottom: 50px;
+  
+}
+
+.club__page-btn ul {
+  display: inline-block;
+}
+
+.club__page-btn ul > li {
+  font-size: 16px;
+  border: 1px solid #dfdfdf;
+  background-color: white;
+  float: left;
+}
+
+.club__page-btn ul > li:first-child > a {
+  background-color: var(--blue);
+  color: white;
+}
+
+.club__page-btn ul > li > a {
+  display: block;
+  padding: 2px 10px;
+  
+}
+
+/* section 4 */
+
+.club__guide {
+  width: 1200px;
+  margin: 0 auto 50px;
+}
+
+.club__guide > .guide_info {
+  margin-bottom: 30px;
+  color: gray;
+}
+
+.club__guide > .guide_info > h3 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.club__guide > .guide_info > ul {
+  font-size: 14px;
+}
+
+.club__guide > .guide_info > ul > li {
+  padding: 5px;
+}
+
+.club__guide > .guide_info > ul > li::before {
+  content: "-";
+  padding-right: 5px;
+}
