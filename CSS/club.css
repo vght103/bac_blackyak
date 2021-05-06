@@ -103,10 +103,10 @@
   font-size: 16px;
 }
 
-.club__info > ul > li > a:hover {
+/* .club__info > ul > li > a:hover {
   color: var(--blue);
 
-}
+} */
 
 
 .club__benefit {
@@ -168,6 +168,10 @@
 
 .club__title  h3 {
   font-size: 16px;
+}
+
+.club__title > a {
+  color: var(--blue);
 }
 
 .club__title .point-1,
