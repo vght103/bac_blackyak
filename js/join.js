@@ -12,3 +12,9 @@ window.onload = function(){
     policyBoxs.eq(currentIndex - 1).css("display", "block");
   });
 }
+
+
+
+function joinComplete(){
+  confirm("회원가입을 완료하시겠습니까?");
+};

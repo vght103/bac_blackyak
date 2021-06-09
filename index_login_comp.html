@@ -4,13 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BAC에 오신것을 환영합니다.</title>
+    <title>BAC-BlackYak</title>
     <link rel="stylesheet" href="CSS/style.css" />
-    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="CSS/main_page.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"
+    ></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
       rel="stylesheet"
-    /> -->
+    />
   </head>
   <body>
     <div class="header_wrap">
@@ -28,12 +34,21 @@
         </nav>
 
         <h2 class="text_blind">사용자메뉴</h2>
+        <div class="login_complete">
+          <ul>
+            <li class="login_sub">내정보</li>
+            <li class="login_sub">로그아웃</li>
+          </ul>
+        </div>
+
+        <h2 class="text_blind">사용자메뉴</h2>
         <ul class="login_menu">
           <li>
-            <a href="join_page.html" class="join_in">회원가입</a>
-          </li>
-          <li>
-            <a href="login-page.html" class="login">로그인</a>
+            <a href="#none" class="login_complete">로그인</a>
+            <ul class="login_sub">
+              <li><a href="user_info.html">내 정보</a></li>
+              <li><a href="index.html">로그아웃</a></li>
+            </ul>
           </li>
         </ul>
       </header>
@@ -72,51 +87,37 @@
       </div>
     </div>
 
-    <div class="sub_gnb" style="display: none">
-      <div class="sub_menu">
-        <ul>
-          <li><a href="#">도전 프로그램</a></li>
-          <li><a href="#">블랙야크 세르파</a></li>
-        </ul>
-      </div>
-      <div class="sub_menu">
-        <ul>
-          <li><a href="#">클럽랭킹</a></li>
-        </ul>
-      </div>
-      <div class="sub_menu">
-        <ul>
-          <li><a href="#">BAC 패션</a></li>
-          <li><a href="#">BAC 도전용품</a></li>
-        </ul>
-      </div>
-      <div class="sub_menu">
-        <ul>
-          <li><a href="#">BAC 센터소개</a></li>
-          <li><a href="#">ALPINE DOME</a></li>
-          <li><a href="#">YAK DOME</a></li>
-        </ul>
-      </div>
-      <div class="sub_menu">
-        <ul>
-          <li><a href="#">공지사항</a></li>
-          <li><a href="#">스토리</a></li>
-          <li><a href="#">Challenge Trip</a></li>
-        </ul>
-      </div>
-    </div>
-
     <main id="main" class="main">
       <section class="main_banner">
         <h2 class="text_blind">BAC 소식</h2>
-        <!-- <ul>
-          <li><a href="#none">내용 1</a></li>
-          <li><a href="#none">내용 2</a></li>
-          <li><a href="#none">내용 3</a></li>
-        </ul> -->
+        <div class="main_container">
+          <div class="main__banner-box">
+            <div class="main_img1"></div>
+            <div class="main_img2"></div>
+          </div>
+        </div>
+
+        <div class="banner__btn">
+          <button type="button" onclick="imgPrev('main_img1)" class="prev_btn">
+            이전
+          </button>
+          <button type="button" onclick="imgNext('main_img2')" class="next_btn">
+            다음
+          </button>
+        </div>
         <a href="login-page.html" class="banner_txt">BAC 가입하기</a>
-        <a href="#none" class="prev_btn">이전</a>
-        <a href="#none" class="next_btn">다음</a>
+      </section>
+
+      <section class="video">
+        <iframe
+          width="1200"
+          height="480"
+          src="https://www.youtube.com/embed/bfQ2YcBAxG0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
       </section>
 
       <section class="inner_1">
@@ -137,7 +138,7 @@
             <li class="challenge_img4">아름다운 우리 강산 클린 마운틴</li>
           </ul>
         </div>
-        <a href="#none">도전하기</a>
+        <a href="challenge_1.html">도전하기</a>
       </section>
 
       <div class="inner_2-wrap">
@@ -156,7 +157,7 @@
               홈페이지의 카풀 서비스를 통해 함께 오르는<br />
               재미를 느낄 수 있습니다.
             </p>
-            <a href="#none"><p class="btn_club">도전클럽 찾기</p></a>
+            <a href="club.html"><p class="btn_club">도전클럽 찾기</p></a>
           </div>
         </section>
       </div>
@@ -172,7 +173,7 @@
           <li class="suits_img2">BAC 배낭</li>
           <li class="suits_img3">BAC 등산신발</li>
         </ul>
-        <a href="#none" class="btn_buy">구입하기</a>
+        <a href="shop.html" class="btn_buy">구입하기</a>
       </section>
 
       <div class="inner_4-img">
@@ -232,7 +233,7 @@
               프로그램 별 인증 서비스를 이용하실 수 있습니다.
             </p>
             <ul>
-              <li class="sign_btn"><a href="login-page.html">가입하기</a></li>
+              <li class="sign_btn"><a href="join_page.html">가입하기</a></li>
               <li class="guide_btn"><a href="#none">가이드 보기</a></li>
             </ul>
           </div>
@@ -286,4 +287,12 @@
       </footer>
     </div>
   </body>
+  <script>
+    $(".gnb ul").mouseenter(function () {
+      $(".sub_gnb").css("display", "block");
+    });
+    $(".header_wrap").mouseleave(function () {
+      $(".sub_gnb").css("display", "none");
+    });
+  </script>
 </html>

@@ -7,27 +7,32 @@ iframe{
   margin: auto;
 }
 
+/* 메인배너 */
 
-.main_banner{
-  background: url(../imgs/main_banner_10.jpg);
+.main_banner {
   width: 1200px;
-  height: 675px;
-  text-indent: -9999px;
   margin: 0 auto 90px;
-  position: relative;
-  z-index: 1;
+  position: relative; 
 }
 
-.main_banner .prev_btn{
-  display: block;
-  width: 60px;
-  height: 60px;
-  background: url(../imgs/prev_icon_03.png);
-  text-indent: -9999px;
-  position: absolute;
-  left: 0;
-  top: 310px;
+.main__banner-box {
+  margin: 0 auto;
+  width: 1200px;
 }
+
+
+.main_banner  .main_img1{
+  background: url(../imgs/main_banner_10.jpg) no-repeat;
+  height: 675px;
+  /* display: none; */
+}
+
+.main_banner  .main_img2{
+  background: url(../imgs/main_banner_IU.png) no-repeat;
+  height: 675px;
+  display: none;
+}
+
 
 .banner_txt{
   display: block;
@@ -38,7 +43,19 @@ iframe{
   position: absolute;
   top: 260px;
   right: 450px;
-  
+}
+
+.main_banner > .banner__btn > .prev_btn{
+  display: block;
+  width: 60px;
+  height: 60px;
+  background: url(../imgs/prev_icon_03.png);
+  text-indent: -9999px;
+  position: absolute;
+  left: 0;
+  top: 310px;
+  border: none;
+  cursor: pointer;
 }
 
 .main_banner .next_btn{
@@ -50,8 +67,11 @@ iframe{
   position: absolute;
   right: 0;
   top: 310px;
+  border: none;
+  cursor: pointer;
 }
 
+/* inner1 */
 
 .inner_1{
   width: 1200px;

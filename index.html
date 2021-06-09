@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BAC-BlackYak</title>
     <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/main_page.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <script
       src="https://code.jquery.com/jquery-2.2.4.min.js"
@@ -78,16 +79,24 @@
     </div>
 
     <main id="main" class="main">
-      <section class="main_banner" style="z-index: 0">
+      <section class="main_banner">
         <h2 class="text_blind">BAC 소식</h2>
-        <!-- <ul>
-          <li><a href="#none">내용 1</a></li>
-          <li><a href="#none">내용 2</a></li>
-          <li><a href="#none">내용 3</a></li>
-        </ul> -->
+        <div class="main_container">
+          <div class="main__banner-box">
+            <div class="main_img1"></div>
+            <div class="main_img2"></div>
+          </div>
+        </div>
+
+        <div class="banner__btn">
+          <button type="button" onclick="imgPrev('main_img1)" class="prev_btn">
+            이전
+          </button>
+          <button type="button" onclick="imgNext('main_img2')" class="next_btn">
+            다음
+          </button>
+        </div>
         <a href="login-page.html" class="banner_txt">BAC 가입하기</a>
-        <a href="#none" class="prev_btn">이전</a>
-        <a href="#none" class="next_btn">다음</a>
       </section>
 
       <section class="video">
@@ -120,7 +129,7 @@
             <li class="challenge_img4">아름다운 우리 강산 클린 마운틴</li>
           </ul>
         </div>
-        <a href="#none">도전하기</a>
+        <a href="challenge_1.html">도전하기</a>
       </section>
 
       <div class="inner_2-wrap">
@@ -139,7 +148,7 @@
               홈페이지의 카풀 서비스를 통해 함께 오르는<br />
               재미를 느낄 수 있습니다.
             </p>
-            <a href="#none"><p class="btn_club">도전클럽 찾기</p></a>
+            <a href="club.html"><p class="btn_club">도전클럽 찾기</p></a>
           </div>
         </section>
       </div>
@@ -155,7 +164,7 @@
           <li class="suits_img2">BAC 배낭</li>
           <li class="suits_img3">BAC 등산신발</li>
         </ul>
-        <a href="#none" class="btn_buy">구입하기</a>
+        <a href="shop.html" class="btn_buy">구입하기</a>
       </section>
 
       <div class="inner_4-img">
@@ -215,7 +224,7 @@
               프로그램 별 인증 서비스를 이용하실 수 있습니다.
             </p>
             <ul>
-              <li class="sign_btn"><a href="login-page.html">가입하기</a></li>
+              <li class="sign_btn"><a href="join_page.html">가입하기</a></li>
               <li class="guide_btn"><a href="#none">가이드 보기</a></li>
             </ul>
           </div>
