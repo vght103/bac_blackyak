@@ -1,9 +1,9 @@
-.video{
+.video {
   width: 1200px;
   margin: 0 auto 80px;
 }
 
-iframe{
+iframe {
   margin: auto;
 }
 
@@ -12,7 +12,7 @@ iframe{
 .main_banner {
   width: 1200px;
   margin: 0 auto 90px;
-  position: relative; 
+  position: relative;
 }
 
 .main__banner-box {
@@ -20,21 +20,24 @@ iframe{
   width: 1200px;
 }
 
+.test {
+  width: 1200px;
+  margin: 0 auto;
+}
 
-.main_banner  .main_img1{
+.main_banner .main_img1 {
   background: url(../imgs/main_banner_10.jpg) no-repeat;
   height: 675px;
   /* display: none; */
 }
 
-.main_banner  .main_img2{
+.main_banner .main_img2 {
   background: url(../imgs/main_banner_IU.png) no-repeat;
   height: 675px;
   display: none;
 }
 
-
-.banner_txt{
+.banner_txt {
   display: block;
   background: url(../imgs/bac_main_title_07.png) no-repeat;
   width: 240px;
@@ -45,7 +48,33 @@ iframe{
   right: 450px;
 }
 
-.main_banner > .banner__btn > .prev_btn{
+.slick-prev {
+  display: block;
+  width: 60px;
+  height: 60px;
+  background: url(../imgs/prev_icon_03.png);
+  text-indent: -9999px;
+  position: absolute;
+  left: 10px;
+  top: 310px;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+}
+.slick-next {
+  display: block;
+  width: 60px;
+  height: 60px;
+  background: url(../imgs/next_icon_03.png);
+  text-indent: -9999px;
+  position: absolute;
+  right: 10px;
+  top: 310px;
+  border: none;
+  cursor: pointer;
+}
+
+/* .main_banner > .banner__btn > .prev_btn {
   display: block;
   width: 60px;
   height: 60px;
@@ -56,9 +85,9 @@ iframe{
   top: 310px;
   border: none;
   cursor: pointer;
-}
+} */
 
-.main_banner .next_btn{
+/* .main_banner .next_btn {
   display: block;
   width: 60px;
   height: 60px;
@@ -69,16 +98,16 @@ iframe{
   top: 310px;
   border: none;
   cursor: pointer;
-}
+} */
 
 /* inner1 */
 
-.inner_1{
+.inner_1 {
   width: 1200px;
   margin: 0 auto 80px;
 }
 
-.inner_1 h2{
+.inner_1 h2 {
   background: url(../imgs/challegne_text_11.jpg) no-repeat;
   width: 428px;
   height: 38px;
@@ -86,21 +115,20 @@ iframe{
   margin: 0 auto 50px;
 }
 
-.inner_1 > p{
+.inner_1 > p {
   text-align: center;
   line-height: 30px;
   font-weight: bold;
   margin-bottom: 50px;
 }
 
-.challenge_list{
+.challenge_list {
   width: 1200px;
   height: 710px;
   margin: 0 auto 20px;
 }
 
-
-.challenge_img1{
+.challenge_img1 {
   background: url(../imgs/challenge_img-1_14.jpg) no-repeat;
   width: 590px;
   height: 343px;
@@ -109,7 +137,7 @@ iframe{
   margin: 0 10px 10px 0;
 }
 
-.challenge_img2{
+.challenge_img2 {
   background: url(../imgs/challenge_img_2_15.jpg) no-repeat;
   width: 590px;
   height: 343px;
@@ -118,7 +146,7 @@ iframe{
   margin: 0 0 10px 10px;
 }
 
-.challenge_img3{
+.challenge_img3 {
   background: url(../imgs/challenge_img-3_14.jpg) no-repeat;
   width: 590px;
   height: 343px;
@@ -127,7 +155,7 @@ iframe{
   margin: 10px 10px 0 0;
 }
 
-.challenge_img4{
+.challenge_img4 {
   background: url(../imgs/challenge_img-4_15.jpg) no-repeat;
   width: 590px;
   height: 343px;
@@ -136,8 +164,7 @@ iframe{
   margin: 10px 0 0 10px;
 }
 
-
-.inner_1 a{
+.inner_1 a {
   display: block;
   border: 1px solid var(--pink);
   width: 135px;
@@ -147,17 +174,16 @@ iframe{
   color: var(--pink);
 }
 
-.inner_1 a:hover{
+.inner_1 a:hover {
   color: white;
   background: var(--pink);
 }
-
 
 /* inner_1 종료 */
 
 /* section 2 */
 
-.inner_2{
+.inner_2 {
   width: 1200px;
   height: 675px;
   margin: 0 auto 80px;
@@ -165,7 +191,7 @@ iframe{
   position: relative;
 }
 
-.inner_2 h2{
+.inner_2 h2 {
   background: url(../imgs/club_title_03.png);
   width: 276px;
   height: 44px;
@@ -173,30 +199,29 @@ iframe{
   margin-bottom: 30px;
 }
 
-.inner_2-txt{
+.inner_2-txt {
   width: 375px;
   color: white;
   line-height: 30px;
   position: absolute;
   left: 185px;
-  top: 115px
+  top: 115px;
 }
 
-.club_txt1{
+.club_txt1 {
   font-size: 20px;
   margin-bottom: 25px;
 }
 
-.club_txt2{
+.club_txt2 {
   margin-bottom: 25px;
 }
 
-.club_txt3{
+.club_txt3 {
   margin-bottom: 30px;
 }
 
-.btn_club{
-  
+.btn_club {
   color: white;
   border: 1px solid white;
   width: 135px;
@@ -204,7 +229,7 @@ iframe{
   padding: 10px 0;
 }
 
-.btn_club:hover{
+.btn_club:hover {
   background: white;
   color: black;
 }
@@ -212,12 +237,12 @@ iframe{
 /* section 2 종료 */
 
 /* section 3 영역 */
-.inner_3{
+.inner_3 {
   width: 1200px;
   margin: 0 auto 80px;
 }
 
-.inner_3 h2{
+.inner_3 h2 {
   background: url(../imgs/suits_title_11.jpg) no-repeat;
   width: 231px;
   height: 38px;
@@ -225,19 +250,19 @@ iframe{
   margin: 0 auto 30px;
 }
 
-.inner_3 p{
+.inner_3 p {
   text-align: center;
   font-weight: bold;
   line-height: 30px;
   margin-bottom: 40px;
 }
 
-.inner_3 ul{
+.inner_3 ul {
   overflow: hidden;
   margin-bottom: 20px;
 }
 
-.inner_3 .suits_img1{
+.inner_3 .suits_img1 {
   background: url(../imgs/suits_img1_07.jpg);
   width: 385px;
   height: 480px;
@@ -246,7 +271,7 @@ iframe{
   margin-right: 20px;
 }
 
-.inner_3 .suits_img2{
+.inner_3 .suits_img2 {
   background: url(../imgs/suits_img2_07.jpg);
   width: 385px;
   height: 480px;
@@ -255,7 +280,7 @@ iframe{
   margin-right: 20px;
 }
 
-.inner_3 .suits_img3{
+.inner_3 .suits_img3 {
   background: url(../imgs/suits_img3_07.jpg);
   width: 385px;
   height: 480px;
@@ -263,8 +288,7 @@ iframe{
   float: left;
 }
 
-.inner_3 .btn_buy{
-  
+.inner_3 .btn_buy {
   border: 1px solid var(--pink);
   width: 135px;
   text-align: center;
@@ -274,7 +298,7 @@ iframe{
   color: var(--pink);
 }
 
-.inner_3 .btn_buy:hover{
+.inner_3 .btn_buy:hover {
   background: var(--pink);
   color: white;
 }
@@ -282,12 +306,11 @@ iframe{
 
 /* section 4 영역 */
 
-.inner_4-img{
+.inner_4-img {
   margin-bottom: 80px;
 }
 
-
-.inner_4{
+.inner_4 {
   width: 1200px;
   height: 675px;
   background: url(../imgs/center_img_03.jpg) no-repeat;
@@ -295,7 +318,7 @@ iframe{
   position: relative;
 }
 
-.center_txt{
+.center_txt {
   width: 1200px;
   margin: 0 auto 100px;
   text-align: center;
@@ -306,8 +329,7 @@ iframe{
   top: 30px;
 }
 
-
-.inner_4 h2{
+.inner_4 h2 {
   background: url(../imgs/bacmain2020_0014.png) no-repeat;
   width: 357px;
   height: 43px;
@@ -315,12 +337,12 @@ iframe{
   margin: 70px auto;
 }
 
-.center_txt p{
+.center_txt p {
   margin-bottom: 30px;
   line-height: 30px;
 }
 
-.inner_4 a{
+.inner_4 a {
   border: 1px solid white;
   color: white;
   width: 135px;
@@ -330,41 +352,38 @@ iframe{
   margin: 50px auto;
 }
 
-.inner_4 a:hover{
+.inner_4 a:hover {
   color: black;
   background: white;
 }
 /* section 4 끝 */
 
 /* section 5 영역 */
-.inner_5{
+.inner_5 {
   width: 1200px;
   margin: 0 auto 80px;
 }
 
-.inner_5-list{
+.inner_5-list {
   width: 1200px;
   height: 215px;
-
-  
 }
 
-.inner_5-list h2{
+.inner_5-list h2 {
   border: 1px solid gray;
   font-size: 16px;
   padding: 10px 0;
-  margin-top:-1px
+  margin-top: -1px;
 }
 
-
-.inner_5-list ul li{
+.inner_5-list ul li {
   border: 1px solid gray;
   padding: 10px 0;
   font-size: 14px;
-  margin-top:-1px
+  margin-top: -1px;
 }
 
-.inner_5-list a{
+.inner_5-list a {
   display: block;
   margin-left: 15px;
 }
@@ -373,50 +392,47 @@ iframe{
 
 /* section 6 영역 */
 
-.inner_6-wrap{
+.inner_6-wrap {
   height: 345px;
   background: url(../imgs/mobile_bg_07.jpg);
   margin-bottom: 30px;
-
 }
 
-.inner_6{
+.inner_6 {
   width: 855px;
   height: 345px;
   margin: auto;
   position: relative;
 }
 
-.inner_6-txt{
+.inner_6-txt {
   display: inline-block;
   /* width: 470px; */
   text-align: center;
   margin-top: 80px;
 }
 
-.inner_6 h2{
+.inner_6 h2 {
   background: url(../imgs/bacmain2020_0011.png) no-repeat;
   width: 470px;
   height: 73px;
   text-indent: -9999px;
 }
 
-.inner_6-txt p{
+.inner_6-txt p {
   font-weight: bold;
   margin-bottom: 30px;
 }
 
-.inner_6-txt ul{
+.inner_6-txt ul {
   overflow: hidden;
-  
 }
 
-.inner_6-txt ul li{
+.inner_6-txt ul li {
   float: left;
-  
 }
 
-.inner_6-txt .sign_btn{
+.inner_6-txt .sign_btn {
   background: url(../imgs/app_sign-in_19.jpg);
   width: 121px;
   height: 47px;
@@ -424,7 +440,7 @@ iframe{
   margin: 0 20px 0 95px;
 }
 
-.inner_6-txt .guide_btn{
+.inner_6-txt .guide_btn {
   background: url(../imgs/app_guide-txt_17.jpg);
   width: 121px;
   height: 47px;
@@ -436,12 +452,10 @@ iframe{
   height: 100%;
 }
 
-.inner_6 img{
+.inner_6 img {
   position: absolute;
   bottom: 0;
   right: 0;
 }
 
-
 /* section 6 끝 */
-

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kr">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="CSS/style.css" />
     <link rel="stylesheet" href="CSS/main_page.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <script
-      src="https://code.jquery.com/jquery-2.2.4.min.js"
-      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-      crossorigin="anonymous"
-    ></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
       rel="stylesheet"
@@ -28,7 +29,11 @@
             <li><a href="challenge_1.html">BAC 챌린지</a></li>
             <li><a href="club.html">BAC 클럽</a></li>
             <li><a href="shop.html">BAC 용품</a></li>
-            <li><a href="#none">BAC 센터</a></li>
+            <li>
+              <a href="http://baccenter.blackyak.com/main.asp" target="_blank"
+                >BAC 센터</a
+              >
+            </li>
             <li><a href="notice.html">커뮤니티</a></li>
           </ul>
         </nav>
@@ -63,9 +68,25 @@
         </div>
         <div class="sub_menu">
           <ul>
-            <li><a href="#">BAC 센터소개</a></li>
-            <li><a href="#">ALPINE DOME</a></li>
-            <li><a href="#">YAK DOME</a></li>
+            <li>
+              <a href="http://baccenter.blackyak.com/main.asp" target="_blank"
+                >BAC 센터소개</a
+              >
+            </li>
+            <li>
+              <a
+                href="http://baccenter.blackyak.com/alpinedom-guide.asp"
+                target="_blank"
+                >ALPINE DOME</a
+              >
+            </li>
+            <li>
+              <a
+                href="http://baccenter.blackyak.com/yakdom-guide.asp"
+                target="_blank"
+                >YAK DOME</a
+              >
+            </li>
           </ul>
         </div>
         <div class="sub_menu">
@@ -88,14 +109,10 @@
           </div>
         </div>
 
-        <div class="banner__btn">
-          <button type="button" onclick="imgPrev('main_img1)" class="prev_btn">
-            이전
-          </button>
-          <button type="button" onclick="imgNext('main_img2')" class="next_btn">
-            다음
-          </button>
-        </div>
+        <!-- <div class="banner__btn">
+          <button type="button" class="prev_btn">이전</button>
+          <button type="button" class="next_btn">다음</button>
+        </div> -->
         <a href="login-page.html" class="banner_txt">BAC 가입하기</a>
       </section>
 
@@ -265,11 +282,11 @@
         </div>
 
         <div class="family_site">
-          <h2><a href="#">패밀리 사이트</a></h2>
-          <ul>
-            <li><a href="#">패밀리 사이트1</a></li>
-            <li><a href="#">패밀리 사이트2</a></li>
-            <li><a href="#">패밀리 사이트3</a></li>
+          <h2><a href="#none" class="family_site-link">패밀리 사이트</a></h2>
+          <ul class="family_site-view">
+            <li><a href="#none">패밀리 사이트1</a></li>
+            <li><a href="#none">패밀리 사이트2</a></li>
+            <li><a href="#none">패밀리 사이트3</a></li>
           </ul>
         </div>
         <p>
@@ -278,12 +295,32 @@
       </footer>
     </div>
   </body>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+  ></script>
+
+  <script>
+    $(".main__banner-box").slick();
+  </script>
   <script>
     $(".gnb ul").mouseenter(function () {
       $(".sub_gnb").css("display", "block");
     });
     $(".header_wrap").mouseleave(function () {
       $(".sub_gnb").css("display", "none");
+    });
+  </script>
+  <script>
+    var familyView = document.querySelector(".family_site-link");
+
+    familyView.addEventListener("click", function (e) {
+      var familySite = document.querySelector(".family_site-view");
+      console.log(familySite);
+      if ((familySite.style.display = "none")) {
+        familySite.style.display = "block";
+      }
     });
   </script>
 </html>
