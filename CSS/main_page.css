@@ -363,14 +363,14 @@ iframe {
 }
 
 .inner_5-list h2 {
-  border: 1px solid gray;
+  border: 1px solid #ddd;
   font-size: 16px;
   padding: 10px 0;
   margin-top: -1px;
 }
 
 .inner_5-list ul li {
-  border: 1px solid gray;
+  border: 1px solid #ddd;
   padding: 10px 0;
   font-size: 14px;
   margin-top: -1px;

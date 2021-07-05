@@ -56,7 +56,7 @@
   position: absolute;
   top: 40px;
   right: 20px;
-  border: 1px solid gray;
+  border: 1px solid #ddd;
   width: 166px;
   height: 22px;
   box-sizing: border-box;
@@ -65,13 +65,14 @@
 
 .family_site h2 {
   font-size: 14px;
-
+  padding-left: 10px;
+  cursor: pointer;
   background: url(../imgs/family_site_arrow_03.png) no-repeat 140px;
 }
 
 .family_site > .family_site-view {
   display: none;
-  border: 1px solid gray;
+  border: 1px solid #ddd;
   width: 166px;
   box-sizing: border-box;
   position: absolute;
@@ -81,4 +82,12 @@
 
 .family_site a {
   padding-left: 10px;
+}
+
+.family-list {
+  display: none;
+}
+
+.family-list > li {
+  border: 1px solid #ddd;
 }

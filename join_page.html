@@ -902,7 +902,7 @@
 
     <div class="footer_wrap">
       <footer id="footer" class="footer">
-        <h3 class="text_blind">사이트 이용안내</h3>
+        <h2 class="text_blind">사이트 이용안내</h2>
 
         <div class="site_info">
           <h3 class="text_blind">약관 및 정책</h3>
@@ -932,8 +932,8 @@
         </div>
 
         <div class="family_site">
-          <h3><a href="#">패밀리 사이트</a></h3>
-          <ul>
+          <h2>패밀리 사이트</h2>
+          <ul class="family-list">
             <li><a href="#">패밀리 사이트1</a></li>
             <li><a href="#">패밀리 사이트2</a></li>
             <li><a href="#">패밀리 사이트3</a></li>
@@ -945,4 +945,13 @@
       </footer>
     </div>
   </body>
+  <script>
+    $(".family_site").click(function () {
+      if ($(".family-list").css("display") == "none") {
+        $(".family-list").css("display", "block");
+      } else {
+        $(".family-list").css("display", "none");
+      }
+    });
+  </script>
 </html>

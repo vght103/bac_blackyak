@@ -55,7 +55,7 @@
       <div class="sub_gnb" style="display: none">
         <div class="sub_menu">
           <ul>
-            <li><a href="#">도전 프로그램</a></li>
+            <li><a href="challenge_1.html">도전 프로그램</a></li>
             <li><a href="#">블랙야크 세르파</a></li>
           </ul>
         </div>
@@ -95,7 +95,7 @@
         </div>
         <div class="sub_menu">
           <ul>
-            <li><a href="#">공지사항</a></li>
+            <li><a href="notice.html">공지사항</a></li>
             <li><a href="#">스토리</a></li>
             <li><a href="#">Challenge Trip</a></li>
           </ul>
@@ -208,7 +208,9 @@
               더불어 건물 내에 구성되어있는 실내 암장을 통해 <br />스포츠
               클라이밍부터 암벽 등반 시스템까지 등반에 대한 <br />다양한 지식과
               경험을 쌓을 수 있는 프로그램을 제공하고 있습니다.
-              <a href="#none">홈페이지 가기</a>
+              <a href="http://baccenter.blackyak.com/main.asp" target="blank"
+                >홈페이지 가기</a
+              >
             </p>
           </div>
         </section>
@@ -216,7 +218,7 @@
 
       <section class="inner_5">
         <div class="inner_5-list">
-          <h2><a href="#none">공지사항</a></h2>
+          <h2><a href="notice.html">공지사항</a></h2>
           <ul>
             <li>
               <a href="#none"
@@ -310,7 +312,13 @@
   ></script>
 
   <script>
-    $(".main_container").slick();
+    $(".main_container").slick({
+      dots: false,
+      infinite: true,
+      speed: 500,
+      fade: true,
+      cssEase: "linear",
+    });
   </script>
   <script>
     $(".gnb ul").mouseenter(function () {
@@ -321,13 +329,11 @@
     });
   </script>
   <script>
-    var familyView = document.querySelector(".family_site-link");
-
-    familyView.addEventListener("click", function (e) {
-      var familySite = document.querySelector(".family_site-view");
-      console.log(familySite);
-      if ((familySite.style.display = "none")) {
-        familySite.style.display = "block";
+    $(".family_site").click(function () {
+      if ($(".family-list").css("display") == "none") {
+        $(".family-list").css("display", "block");
+      } else {
+        $(".family-list").css("display", "none");
       }
     });
   </script>

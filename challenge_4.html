@@ -8,11 +8,7 @@
     <link rel="stylesheet" href="CSS/style.css" />
     <link rel="stylesheet" href="CSS/challenge.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <script
-      src="https://code.jquery.com/jquery-2.2.4.min.js"
-      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-      crossorigin="anonymous"
-    ></script>
+    
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
       rel="stylesheet"
@@ -300,6 +296,7 @@
     <div class="footer_wrap">
       <footer id="footer" class="footer">
         <h2 class="text_blind">사이트 이용안내</h2>
+
         <div class="site_info">
           <h3 class="text_blind">약관 및 정책</h3>
           <ul>
@@ -328,8 +325,8 @@
         </div>
 
         <div class="family_site">
-          <h2><a href="#">패밀리 사이트</a></h2>
-          <ul>
+          <h2>패밀리 사이트</h2>
+          <ul class="family-list">
             <li><a href="#">패밀리 사이트1</a></li>
             <li><a href="#">패밀리 사이트2</a></li>
             <li><a href="#">패밀리 사이트3</a></li>
@@ -341,12 +338,22 @@
       </footer>
     </div>
   </body>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   <script>
     $(".gnb ul").mouseenter(function () {
       $(".sub_gnb").css("display", "block");
     });
     $(".header_wrap").mouseleave(function () {
       $(".sub_gnb").css("display", "none");
+    });
+  </script>
+  <script>
+    $(".family_site").click(function () {
+      if ($(".family-list").css("display") == "none") {
+        $(".family-list").css("display", "block");
+      } else {
+        $(".family-list").css("display", "none");
+      }
     });
   </script>
 </html>

@@ -1,8 +1,8 @@
-.header_wrap{
+.header_wrap {
   border-bottom: 1px solid gray;
 }
 
-.header{
+.header {
   width: 1200px;
   /* height: 100px; */
   margin: 0 auto;
@@ -11,7 +11,7 @@
   padding-bottom: 20px;
 }
 
-.header h1{
+.header h1 {
   width: 132px;
   height: 56px;
   background: url(../imgs/logo_top_05.jpg) no-repeat;
@@ -19,12 +19,12 @@
   float: left;
   margin-top: 40px;
 }
-.header h1>a{
+.header h1 > a {
   display: block;
   height: 100%;
 }
 
-.gnb{
+.gnb {
   width: 860px;
   margin: 70px 0 0 200px;
   float: left;
@@ -40,27 +40,25 @@
   height: 150px;
 }
 
-.gnb ul li > a:hover{
+.gnb ul li > a:hover {
   color: var(--pink);
 }
 
-
-.gnb > ul{
+.gnb > ul {
   float: left;
   font-size: 15px;
   font-weight: bold;
   margin-left: 55px;
 }
 
-.gnb > ul > li{
+.gnb > ul > li {
   float: left;
   /* margin-right: 50px; */
   overflow: hidden;
   padding: 0 40px;
 }
 
-
-.gnb .sub_menu{
+.gnb .sub_menu {
   position: absolute;
   /* z-index: 5; */
   /* height: 150px; */
@@ -71,16 +69,15 @@
   /* display: none; */
 }
 
-
-.gnb:hover ~ .sub_gnb{
+.gnb:hover ~ .sub_gnb {
   display: block;
 }
 
-.gnb .sub_menu >li {
+.gnb .sub_menu > li {
   padding: 5px 0;
 }
 
-.sub_gnb{
+.sub_gnb {
   width: 100%;
   height: 150px;
   text-align: center;
@@ -91,7 +88,7 @@
   /* opacity: 0; */
 }
 
-.sub_gnb .sub_menu{
+.sub_gnb .sub_menu {
   display: inline-block;
   vertical-align: top;
   font-size: 14px;
@@ -99,25 +96,23 @@
   margin: 0 15px 0 13px;
 }
 
-.sub_gnb .sub_menu:first-child{
+.sub_gnb .sub_menu:first-child {
   margin-left: 104px;
 }
 
-.sub_gnb .sub_menu:last-child{
+.sub_gnb .sub_menu:last-child {
   margin-right: 70px;
 }
-
 
 .sub_gnb .sub_menu > ul > li {
   padding: 5px 0;
 }
 
-.sub_menu > ul > li > a:hover{
+.sub_menu > ul > li > a:hover {
   color: blue;
 }
 
-
-.login_menu .join_in{
+.login_menu .join_in {
   display: block;
   width: 60px;
   height: 21px;
@@ -133,7 +128,7 @@
   border-radius: 5px;
 }
 
-.login_menu .login{
+.login_menu .login {
   display: block;
   width: 60px;
   height: 21px;
@@ -147,25 +142,25 @@
   text-align: center;
   padding: 4px 0;
   border-radius: 5px;
-  
 }
 
-.login_complete{
+.login_complete {
   display: block;
   width: 35px;
   height: 35px;
   position: absolute;
   right: 20px;
   top: 20px;
-  background: url(../imgs/user_icon-small.png)no-repeat;
+  background: url(../imgs/login.png) no-repeat;
   text-indent: -9999px;
+  opacity: 1;
 }
 
-.login_menu{
+.login_menu {
   position: relative;
 }
 
-.login_sub{
+.login_sub {
   text-align: center;
   position: absolute;
   top: 60px;
@@ -175,7 +170,7 @@
   pointer-events: none;
 }
 
-.login_sub::before{
+.login_sub::before {
   content: "";
   position: absolute;
   left: 0;
@@ -184,15 +179,12 @@
   height: 10px;
 }
 
-.login_menu:hover .login_sub{
+.login_menu:hover .login_sub {
   opacity: 1;
   pointer-events: auto;
-
 }
 
-.login_sub li{
-  border: 1px solid gray;
+.login_sub li {
+  border: 1px solid #ddd;
   padding: 3px;
-
 }
-

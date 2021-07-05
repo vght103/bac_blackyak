@@ -189,22 +189,39 @@
               </address>
               <p>FAX 02)2286-9700 blackyakmall@blackyak.com</p>
             </div>
-
-            <p>
-              Copyright ©BLACKYAK Corp. 블랙야크 클럽서비스 All Rights Reserved.
-            </p>
           </div>
 
           <div class="family_site">
-            <h2><a href="#">패밀리 사이트</a></h2>
-            <ul>
+            <h2>패밀리 사이트</h2>
+            <ul class="family-list">
               <li><a href="#">패밀리 사이트1</a></li>
               <li><a href="#">패밀리 사이트2</a></li>
               <li><a href="#">패밀리 사이트3</a></li>
             </ul>
           </div>
+          <p>
+            Copyright ©BLACKYAK Corp. 블랙야크 클럽서비스 All Rights Reserved.
+          </p>
         </footer>
       </div>
     </div>
   </body>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script>
+    $(".gnb ul").mouseenter(function () {
+      $(".sub_gnb").css("display", "block");
+    });
+    $(".header_wrap").mouseleave(function () {
+      $(".sub_gnb").css("display", "none");
+    });
+  </script>
+  <script>
+    $(".family_site").click(function () {
+      if ($(".family-list").css("display") == "none") {
+        $(".family-list").css("display", "block");
+      } else {
+        $(".family-list").css("display", "none");
+      }
+    });
+  </script>
 </html>
