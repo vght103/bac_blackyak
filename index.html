@@ -18,29 +18,6 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <!-- <style>
-      .main_banner {
-        width: 1200px;
-        margin: 0 auto 90px;
-        position: relative;
-      }
-
-      .main__banner-box {
-        margin: 0 auto;
-        width: 1200px;
-      }
-
-      .main_banner .main_img1 {
-        background: url(imgs/main_banner_10.jpg) no-repeat;
-        height: 675px;
-        /* display: none; */
-      }
-
-      .main_banner .main_img2 {
-        background: url(imgs/main_banner_IU.jpg) no-repeat;
-        height: 675px;
-      }
-    </style> -->
   </head>
   <body>
     <div class="header_wrap">
@@ -126,14 +103,14 @@
       <section class="main_banner">
         <h2 class="text_blind">BAC 소식</h2>
         <div class="main_container">
-          <div class="main__banner-box">
-            <div class="main_img1">
-              <img src="imgs/main_banner_IU.jpg" alt="" />
-            </div>
-            <div class="main_img2">
-              <img src="imgs/main_banner_10.jpg" alt="" />
-            </div>
+          <!-- <div class="main__banner-box"> -->
+          <div class="main_img1">
+            <!-- <img src="imgs/main_banner_IU.jpg" alt="" /> -->
           </div>
+          <div class="main_img2">
+            <!-- <img src="imgs/main_banner_10.jpg" alt="" /> -->
+          </div>
+          <!-- </div> -->
         </div>
 
         <!-- <div class="banner__btn">
@@ -329,7 +306,7 @@
   ></script>
 
   <script>
-    $(".main__banner-box").slick();
+    $(".main_container").slick();
   </script>
   <script>
     $(".gnb ul").mouseenter(function () {
