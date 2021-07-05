@@ -8,15 +8,39 @@
     <link rel="stylesheet" href="CSS/style.css" />
     <link rel="stylesheet" href="CSS/main_page.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <script
-      src="https://code.jquery.com/jquery-2.2.4.min.js"
-      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-      crossorigin="anonymous"
-    ></script>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <style>
+      .main_banner {
+        width: 1200px;
+        margin: 0 auto 90px;
+        position: relative;
+      }
+
+      .main__banner-box {
+        margin: 0 auto;
+        width: 1200px;
+      }
+
+      .main_banner .main_img1 {
+        background: url(imgs/main_banner_10.jpg) no-repeat;
+        height: 675px;
+        /* display: none; */
+      }
+
+      .main_banner .main_img2 {
+        background: url(imgs/main_banner_IU.jpg) no-repeat;
+        height: 675px;
+      }
+    </style>
   </head>
   <body>
     <div class="header_wrap">
@@ -287,12 +311,36 @@
       </footer>
     </div>
   </body>
+  <script
+    src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+  ></script>
+
+  <script>
+    $(".main__banner-box").slick();
+  </script>
   <script>
     $(".gnb ul").mouseenter(function () {
       $(".sub_gnb").css("display", "block");
     });
     $(".header_wrap").mouseleave(function () {
       $(".sub_gnb").css("display", "none");
+    });
+  </script>
+  <script>
+    var familyView = document.querySelector(".family_site-link");
+
+    familyView.addEventListener("click", function (e) {
+      var familySite = document.querySelector(".family_site-view");
+      console.log(familySite);
+      if ((familySite.style.display = "none")) {
+        familySite.style.display = "block";
+      }
     });
   </script>
 </html>

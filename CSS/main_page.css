@@ -9,7 +9,7 @@ iframe {
 
 /* 메인배너 */
 
-.main_banner {
+/* .main_banner {
   width: 1200px;
   margin: 0 auto 90px;
   position: relative;
@@ -28,7 +28,7 @@ iframe {
 .main_banner .main_img2 {
   background: url(../imgs/main_banner_IU.png) no-repeat;
   height: 675px;
-}
+} */
 
 .banner_txt {
   display: block;
