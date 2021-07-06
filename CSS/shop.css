@@ -1,4 +1,4 @@
-.bac_shop{
+.bac_shop {
   width: 1200px;
   margin: auto;
 }
@@ -11,8 +11,7 @@
   margin: 0 auto 80px;
 }
 
-
-.bac_items{
+.bac_items {
   /* width: 1200px; */
   margin: auto;
   text-align: center;
@@ -31,7 +30,7 @@
   margin-bottom: 100px;
 }
 
-.bac_items > section > ul > li:hover{
+.bac_items > section > ul > li:hover {
   background-color: rgb(229, 245, 251);
 }
 
@@ -40,32 +39,30 @@
   border: 1px solid gray;
   width: 285px;
   height: 460px;
-  transition: background-color  0.5s;
+  transition: background-color 0.5s;
 }
 
-.bac_items > section > ul > li > .product__top{
+.bac_items > section > ul > li > .product_top {
   background-color: gray;
   font-size: 16px;
   font-weight: bold;
-  
 }
 
-.bac_items > section > ul > li > .product__bottom  img{
+.bac_items > section > ul > li > .product_bottom img {
   padding-top: 20px;
 }
 
-.bac_items > section > ul > li > .product__bottom  span{
+.bac_items > section > ul > li > .product_bottom span {
   display: block;
   padding-top: 20px;
 }
 
-.bac_items > section > ul > li  a {
+.bac_items > section > ul > li a {
   display: block;
   padding: 15px 0;
 }
 
-
-.bac_items > section > .more_view{
+.bac_items > section > .more_view {
   display: block;
   /* position: absolute;
   bottom: 60px;
@@ -74,11 +71,7 @@
   margin: 10px 20px 0;
 }
 
-
-
-.bac_items > .outer > .outer_2 > dt{
+.bac_items > .outer > .outer_2 > dt {
   background: #f7f7f7;
-  color: black
+  color: black;
 }
-
-
