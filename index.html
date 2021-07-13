@@ -322,10 +322,12 @@
   </script>
   <script>
     $(".gnb ul").mouseenter(function () {
-      $(".sub_gnb").css("display", "block");
+      $(".sub_gnb").slideDown(200);
+      // $(".sub_gnb").css("display", "block");
     });
     $(".header_wrap").mouseleave(function () {
-      $(".sub_gnb").css("display", "none");
+      $(".sub_gnb").slideUp(200);
+      // $(".sub_gnb").css("display", "none");
     });
   </script>
   <script>

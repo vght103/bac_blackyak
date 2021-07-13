@@ -7,11 +7,11 @@
     <title>BAC-로그인</title>
     <link rel="stylesheet" href="CSS/login-page_style.css" />
     <link rel="stylesheet" href="CSS/style.css" />
-    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
       rel="stylesheet"
-    /> -->
+    />
   </head>
   <body>
     <div class="header_wrap">
@@ -113,7 +113,7 @@
           <h2>BAC 로그인</h2>
 
           <div class="form_wrap">
-            <form action="index_login_comp.html" method="GET">
+            <form action="index_login_comp.html" method="POST">
               <div class="form_control">
                 <input type="text" placeholder="ID" />
               </div>
@@ -209,10 +209,10 @@
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   <script>
     $(".gnb ul").mouseenter(function () {
-      $(".sub_gnb").css("display", "block");
+      $(".sub_gnb").slideDown(200);
     });
     $(".header_wrap").mouseleave(function () {
-      $(".sub_gnb").css("display", "none");
+      $(".sub_gnb").slideUp(200);
     });
   </script>
   <script>

@@ -351,10 +351,10 @@
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   <script>
     $(".gnb ul").mouseenter(function () {
-      $(".sub_gnb").css("display", "block");
+      $(".sub_gnb").slideDown(200);
     });
     $(".header_wrap").mouseleave(function () {
-      $(".sub_gnb").css("display", "none");
+      $(".sub_gnb").slideUp(200);
     });
   </script>
   <script>
